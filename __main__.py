@@ -34,6 +34,7 @@ questions = [
                       default=["Gender-Neutral"]
                       ),
     inquirer.Text('streams',
+                 
                       message='Keywords to find in stream (Leave blank for all)?',
                       default=""
                       ),
@@ -94,3 +95,5 @@ Closing Rank: {i["closing_rank"]}
     """)
     inquirer.text(message="Done. Press Enter to exit. ")
     exit()
+    # def get_message(answers): return str()
+    # The return value for the given inquirer
